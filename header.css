@@ -1,0 +1,41 @@
+header {
+    border-color: #4c4c4f;
+    background-image: url(bakg1.jpg);
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 50%;
+    background-color: #605c5c;
+    position: absolute;
+    height: 550px;
+    border-width: 5px;
+}
+
+.res {
+    border-style: solid;
+    border-color: #4c4c4f;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    background-color: #fcf803;
+    width: 70px;
+    height: 20px;
+}
+p{
+    color: black;
+    border-style: solid;
+    border-color: #4c4c4f;
+    border-width: 1px;
+    background-color: #fcf803;
+}
+.comands{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.comand{
+    width: 100px;
+    height: 10px;
+}
