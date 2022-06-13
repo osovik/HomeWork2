@@ -1,0 +1,20 @@
+button {
+
+    color: #4c4c4f;
+    background-image: inherit;
+    border-style: dashed;
+    width: 150px;
+    height: 50px;
+    border-color: #4c4c4f;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(#ffffff, gray);
+    background-clip: content-box;
+
+}

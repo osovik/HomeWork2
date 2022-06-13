@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="h1.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="button-1.css">
+
+
+</head>
+<body>
+
+<header id="header">
+    <h1>CALCULATOR</h1>
+    <div>
+        <label for="number1"></label><input id="number1">
+        <label for="number2"></label><input id="number2">
+    </div>
+    <p class="res">ANSWER</p>
+    <p class="res" id="answer"></p>
+    <p class="comands">WRITE YOUR COMMAND:</p>
+    <label for="action"></label><input id="action">
+
+    <p class="commands">AVAILABLE COMMANDS:</p>
+    <p class="addition">addition</p>
+    <p class="subtraction">subtraction</p>
+    <p class="multiplication">multiplication</p>
+    <p class="division">division</p>
+    <button class ="button" onclick="calculate()">CALCULATE</button>
+    <script src="jscode.js"></script>
+</header>
+</body>
+</html>
